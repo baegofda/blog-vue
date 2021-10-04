@@ -6,6 +6,7 @@
         ref="todoInput"
         type="text"
         class="form--input"
+        placeholder="추가할 리스트를 입력하여 주세요 !"
         v-model="inputText"
       />
       <Button type="submit" name="추가하기" @click="onClick" />
