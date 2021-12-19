@@ -32,13 +32,7 @@ export default {
   data() {
     return {
       inputText: "",
-      todos: [
-        {
-          id: Date.now(),
-          content: "hhh",
-          isCompleted: false,
-        },
-      ],
+      todos: [],
     };
   },
   methods: {
