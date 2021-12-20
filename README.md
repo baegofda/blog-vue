@@ -1,4 +1,4 @@
-# blog-vue
+# Blog-vue
 
 Demo: https://baegofda.github.io/blog-vue/
 
