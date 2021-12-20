@@ -22,7 +22,6 @@
     </ul>
   </main>
 </template>
-ß
 <script>
 import Button from "../components/Button.vue";
 import ToDoItem from "../components/ToDoItem.vue";
