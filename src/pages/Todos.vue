@@ -5,7 +5,7 @@
       <input
         ref="todoInput"
         type="text"
-        class="form--input"
+        class="form__input"
         placeholder="추가할 리스트를 입력하여 주세요 !"
         v-model="inputText"
       />
@@ -22,7 +22,7 @@
     </ul>
   </main>
 </template>
-
+ß
 <script>
 import Button from "../components/Button.vue";
 import ToDoItem from "../components/ToDoItem.vue";
@@ -82,7 +82,7 @@ export default {
   height: 40px;
   margin-bottom: 20px;
 }
-.form--input {
+.form__input {
   margin-right: 5px;
   background-color: transparent;
   border: 0;

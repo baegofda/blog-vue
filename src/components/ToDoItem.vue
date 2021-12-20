@@ -2,12 +2,12 @@
   <li class="item">
     <input
       type="checkbox"
-      class="item--checkbox"
+      class="item__checkbox"
       @change="$emit('onComplete', todo.id)"
     />
     <p
-      class="item--content"
-      :class="{ 'item--content-completed': todo.isCompleted }"
+      class="item__content"
+      :class="{ 'item__content--completed': todo.isCompleted }"
     >
       {{ todo.content }}
     </p>
@@ -38,18 +38,18 @@ export default {
 .item:last-child {
   margin-bottom: 0;
 }
-.item--checkbox {
+.item__checkbox {
   width: 20px;
   height: 100%;
   margin-right: 5px;
 }
-.item--content {
+.item__content {
   margin-right: 5px;
   line-height: 40px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.11);
   flex: 1;
 }
-.item--content-completed {
+.item__content--completed {
   color: rgba(0, 0, 0, 0.3);
   text-decoration: line-through;
 }
