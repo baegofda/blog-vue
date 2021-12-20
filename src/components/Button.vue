@@ -12,7 +12,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .btn {
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.6);
