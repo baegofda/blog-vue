@@ -1,5 +1,5 @@
 <template>
-  <button class="btn" :type="type" @click="$emit('delete')">{{ name }}</button>
+  <button class="btn" :type="type">{{ name }}</button>
 </template>
 
 <script>
