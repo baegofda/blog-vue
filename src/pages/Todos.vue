@@ -16,8 +16,8 @@
         v-for="todo in todos"
         :key="todo.id"
         :todo="todo"
-        @onComplete="onComplete($event)"
-        @onDelete="onDelete($event)"
+        @onComplete="onComplete"
+        @onDelete="onDelete"
       />
     </ul>
   </main>
